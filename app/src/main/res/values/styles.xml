@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ThemeOverlay">themover</style>
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+
+    <item name="android:textColorSecondary">@android:color/background_dark</item>
+</style>
+
+<style name="Theme" parent="Theme.AppCompat.NoActionBar"/>
+<style name="FulscreenTheme" parent="AppTheme">
+<item name="android:actionBarStyle">@style/FulscreenactionBarStyle</item>
+<item name="android:windowActionBarOverlay">false</item>
+<item name="android:windowBackground">@null</item>
+
+</style>
+
+    <style name="FulscreenThemeActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+    <style name="Widget">
+
+    </style>
+
+    <style name="Widget.AppCompat">
+
+    </style>
+
+    <style name="FulscreenactionBarStyle">
+
+    </style>
+    <style name="coolapsApp" parent="@android:style/TextAppearance.Medium">
+    <item name="android:textSize">24sp</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="coolapsExp" parent="@android:style/TextAppearance.Material.Title" tools:targetApi="lollipop">
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">#4f0e0d0e</item>
+</style>
+
+</resources>

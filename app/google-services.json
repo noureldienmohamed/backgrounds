@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "464155497934",
+    "firebase_url": "https://backgrounds-f5c94.firebaseio.com",
+    "project_id": "backgrounds-f5c94",
+    "storage_bucket": "backgrounds-f5c94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464155497934:android:d52ff41e93128f67",
+        "android_client_info": {
+          "package_name": "com.example.nour.backgrounds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464155497934-a9m16me1lg46f39riih4tcid2sickrki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nour.backgrounds",
+            "certificate_hash": "2bd4d61fe91e27b82e5ecd8f4e76bb1efd756e34"
+          }
+        },
+        {
+          "client_id": "464155497934-7n2v2dttsdrl485chvb588soqe2knuig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApJeluRP7GfA84BRA9zSzYeBhLAh4ch-I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464155497934-7n2v2dttsdrl485chvb588soqe2knuig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
